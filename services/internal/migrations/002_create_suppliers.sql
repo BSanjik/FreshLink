@@ -1,0 +1,9 @@
+CREATE TABLE suppliers (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    phone VARCHAR(20) NOT NULL,
+    address TEXT,
+    description TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
